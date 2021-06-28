@@ -1,0 +1,223 @@
+///common form text color /////
+img.tilee {
+position: fixed;
+right: 189px;
+top: 0px;
+}
+img.micon {
+width: 23px;
+
+}
+.f_text {
+color: #b7b3b3;
+font-weight: 100;
+}
+.text_c {
+font-weight: 500;
+}
+.box {
+border: 2px solid #fff;
+position: fixed;
+top: 20px;
+right: 191px;
+}
+.img-responsive {
+width: 39px;
+border-radius: 50px;
+}
+.name {
+font-size: 20px;
+font-weight: 100;
+}
+.line {
+border-bottom: 1px solid #fff;
+}
+.text_h {
+font-weight: 400;
+font-size: 30px;
+}
+img.image {
+width: 100%;
+}
+.box1 {
+border: 2px solid #fff;
+position: fixed;
+top: 217px;
+right: 191px;
+}
+.hr1{
+width:90%;
+height: 1px;
+background-color: gray;
+margin: 0 auto;
+}
+h1.music {
+font: normal normal normal 13px/22px Segoe UI;
+
+}
+button.btn.btn-outline-light.p-2 {
+font-size: 14px;
+width: 14%;
+}
+.icon {
+width:32px;
+}
+hr.line1 {
+background-color: #fff;
+}
+.card {
+height: 198px;
+border-radius: 10px;
+}
+img.card-img-top {
+border-radius: 10px;
+height: 197px;
+
+object-fit: cover;
+}
+.col-md-12.related {
+width: 100%;
+position: relative;
+left: 0px;
+right: 0px;
+padding: 0px;
+}
+
+ul{
+padding:0px;
+}
+.clapp {
+position: relative;
+top: -8px;
+left: 22px;
+}
+img.claps {
+width: 29px;
+}
+.responce {
+font-size: 25px;
+}
+.share {
+font-weight: 100;
+}
+// footer/////////
+.container.cc-container 
+{
+background-color: black;
+max-width: 100% !important;
+}
+
+/* overlay hover */
+.img__wrap {
+    position: relative;
+    }
+    .sometext{
+    font: normal normal normal 20px/32px Open Sans;
+    letter-spacing: 0px;
+    }
+    .sometext1{
+    
+    font: normal normal normal 14px/13px Open Sans;
+    letter-spacing: 0px;
+    }
+    .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    // color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 15px;
+    background: rgba(194, 245, 255, 0.50);
+    height: 100%;
+    
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    }
+    
+    .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+    }
+// //////////media queryyyyyyyyyyyyy///////////////////////
+@media screen and (min-width: 300px) and (max-width: 767px) {
+.box {
+right: 0px;
+position: relative;
+width: 94%;
+margin: 0 auto;
+top: 0px;
+
+}
+.box1 {
+top: -39px;
+right: 0px;
+position: relative;
+width: 93%;
+margin: 0 auto;
+}
+.mobile_tex {
+font-size: 20px;
+}
+img.img_f{
+width: 40px;
+margin-left: 26px;
+}
+.icon {
+position: relative;
+top: -73px;
+width: 35px;
+}
+.name{
+font-size: 20px;
+}
+img.micon {
+width: 46px;
+padding: 8px;
+}
+button.btn.btn-outline-light.p-2{
+font-size: 20px;
+width: 37%;
+position: relative;
+top: -30px;
+}
+.tought {
+position: relative;
+top: -47px;
+font-size: 19px;
+}
+img.tilee {
+right: 20px;
+z-index: 999;
+}
+.mob_p {
+padding-top: 0px !important;
+}
+.responce {
+position: relative;
+top: 50px;
+}
+.img-responsive {
+width: 50px;
+}
+.card-deck {
+width: 92%;
+margin: 0 auto;
+}
+.mob_t {
+text-align: center;
+}
+img.claps {
+width: 45px;
+}
+ul.iconmob li {
+padding-top: 10px;
+}
+.related {
+padding-left: 16px;
+}
+}

@@ -1,0 +1,179 @@
+///common form text color /////
+img.tilee {
+position: fixed;
+}
+.f_text {
+color: #b7b3b3;
+font-weight: 100;
+font-size: 16px;
+}
+.t_color {
+color: #5c5d60;
+}
+.text_c {
+font-weight: 500;
+}
+.box {
+border: 2px solid #868789;
+right: -67px;
+position: relative;
+top: 20px;
+height: fit-content;
+
+}
+.img-comment {
+    width: 32px;
+    border-radius: 50px;
+    scroll-behavior: smooth;
+    transition: width 0.1s;
+
+    }
+    .img-comment:hover {
+        width: 40px;
+        
+        }
+.img-r {
+width: 55px;
+border-radius: 50px;
+}
+.name {
+font-size: 20px;
+font-weight: 100;
+}
+.line {
+border-bottom: 2px solid #868789;
+}
+.text_h {
+font-weight: 400;
+font-size: 30px;
+}
+img.image {
+width: 100%;
+}
+img.img_faicon {
+width: 23px;
+}
+img.img_faicon1 {
+width: 25px;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 5px;
+}
+.hr1{
+width:90%;
+height: 1px;
+background-color: gray;
+margin: 0 auto;
+}
+h1.music {
+font: normal normal normal 16px/22px Segoe UI;
+}
+img.micon {
+width: 12%;
+}
+img.micon1 {
+    width: 16%;
+    }
+.img_b{
+  width: 32px;
+}
+.img_f{
+width: 28px;
+}
+.show {
+font-weight: 300;
+font-size: 32px;
+}
+.success {
+border-color: #868789;
+color: #fff;
+font-size: 15px;
+}
+.success:hover {
+background-color: green;
+}
+// footer/////////
+.container.cc-container 
+{
+background-color: black;
+max-width: 100% !important;
+}
+topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+  
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid #f1f1f1;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #f1f1f1;
+  }
+// //////////media queryyyyyyyyyyyyy///////////////////////
+@media screen and (min-width: 300px) and (max-width: 767px) {
+.box {
+right: 0px;
+width: 93%;
+margin: 0 auto;
+top: -5px;
+position: relative;
+}
+h2.text-white.mob_t {
+text-align: center;
+}
+.mob_date {
+text-align: center;
+}
+img.tilee {
+position: fixed;
+top: 1px;
+    right: 20px;
+background-color: black;
+}
+img.micon {
+  width: 12%;
+  padding: 1px;
+}
+.success{
+font-size: 29px;
+}
+.name {
+font-size: 30px;
+}
+.f_text {
+font-size: 20px;
+}
+.mobauthor {
+padding-left: 40%;
+position: relative;
+top: -48px;
+font-size: 16px;
+}
+.img-comment {
+width: 50px;
+}
+img.micon1 {
+  width: 13%;
+  padding: 4px;
+}
+.text_h {
+font-size: 20px;
+}
+.img_b {
+ 
+  width: 40px;
+}
+
+}

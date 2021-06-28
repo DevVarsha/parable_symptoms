@@ -1,0 +1,252 @@
+
+//header///
+.create {
+background-color: rgb(46, 43, 43);
+padding-bottom: 171px;
+}
+.container.cc-container 
+{
+background-color: black;
+max-width: 100% !important;
+}
+.draft {
+font-weight: 100;
+}
+.back{
+position: relative;;
+left:0px;
+}
+.f_text {
+color: #b7b3b3;
+font-weight: 100;
+font-size: 16px;
+}
+.img-comment {
+width: 40px;
+border-radius: 50px;
+cursor: pointer;
+}
+button.btn.btn-success.publish {
+background-color: green;
+font-size: 20px;
+}
+.btn {
+background-color: black;
+cursor: pointer;
+}
+.alex {
+font-size: 25px;
+position: relative;
+top: 7px;
+cursor: pointer;
+}
+ul.listbtn {
+padding: 0px;
+}
+//  Style the active class, and buttons on mouse-over 
+.active, .btn:hover {
+background-color: #C2F5FF;
+color: white;
+}
+.b_ton {
+width: 100%;
+font-size: 15px;
+}
+// footer/////////
+.container.cc-containerf 
+{
+background-color: black;
+max-width: 100% !important;
+position:fixed;
+width:100%;  
+padding:14px;
+bottom:0;
+}
+textarea {
+background-color:transparent;
+border: none; 
+}
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+float: left;
+width: 80%;
+background: none;
+}
+input:focus, textarea:focus, select:focus{
+outline: none;
+background: none;
+}
+::placeholder {
+color: #888888;
+opacity: 1; 
+}
+.tell
+{
+color: #888888;
+font-weight: normal;
+}
+.dropdown-menu {
+background-color: black;
+margin-left: 13px;
+width: 141px;
+}
+.dropdown-menu ul li {
+color: #fff;
+}
+.dropdown-menu ul li:hover {
+color: #fff;
+background-color: black;
+}
+ul.texx {
+padding: 0px;
+
+font-size: 20px;
+}
+/////boxxxx////
+.box {
+border: 2px solid #868789;
+right: -16px;
+position: relative;
+top: 20px;
+}
+.listbtn li{
+display: inline-block;
+padding:2px 20px;
+}
+.dropdown-menu.hh {
+    /* padding-left: 30px; */
+    background-color: transparent;
+    margin-left: 69px;
+    position: relative;
+    top: -38px;
+    box-shadow: none;
+    border: none;
+}
+// //////////media queryyyyyyyyyyyyy///////////////////////
+@media screen and (min-width: 300px) and (max-width: 700px) {
+.box {
+right: 0px;
+margin-bottom: 89px !important;
+margin-left: 26px;
+} 
+button.btn.btn-success.publish{
+float: right;
+position: relative;
+top: -36px;
+}
+.img-comment {
+width: 50px;
+top: 16px;
+position: relative;
+}
+.alex {
+position: relative;
+top: 23px;
+}
+img.addicon{
+position: relative;
+top: -8px;
+}
+// img.addicon:after{
+//   transform: rotate(45deg);
+//     }
+.alexmob {
+padding-left: 40%;
+font-size: 16px;
+position: relative;
+top: -32px;
+}
+.row.header {
+position: fixed;
+top: 0px;
+left: 15px;
+right: 14px;
+background-color: black;
+z-index: 999;
+}
+.create{
+position: relative;
+top: 152px;
+}
+.draft {
+font-size: 15px;
+}
+.container.cc-containerf 
+{
+position: relative;;
+}
+.footer {
+position: absolute;
+}
+}
+
+
+
+
+
+
+
+
+
+
+// .sidebar {
+//     // height: 100%;
+//     width: 0;
+//     position: fixed;
+//     z-index: 1;
+//     // top: 0;
+//     // left: 0;
+//     // background-color: #111;
+//     overflow-x: hidden;
+//     transition: 0.5s;
+//     // padding-top: 60px;
+//   }
+//   .plusicon li
+//   {    display: inline-block;
+//   }
+
+//   .sidebar a {
+//     padding: 8px 8px 8px 32px;
+//     text-decoration: none;
+//     font-size: 25px;
+//     color: #818181;
+//     display: block;
+//     transition: 0.3s;
+//   }
+  
+//   .sidebar a:hover {
+//     color: #f1f1f1;
+//   }
+  
+//   .sidebar .closebtn {
+//     position: absolute;
+//     top: 0;
+//     right: 25px;
+//     font-size: 36px;
+//     margin-left: 50px;
+//   }
+  
+//   .openbtn {
+//     font-size: 20px;
+//     cursor: pointer;
+//     background-color: #111;
+//     color: white;
+//     padding: 10px 15px;
+//     border: none;
+//   }
+  
+//   .openbtn:hover {
+//     background-color: #444;
+//   }
+  
+//   #main {
+//     transition: margin-left .5s;
+//     padding: 16px;
+//   }
+  
+//   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+//   @media screen and (max-height: 450px) {
+//     .sidebar {padding-top: 15px;}
+//     .sidebar a {font-size: 18px;}
+//   }

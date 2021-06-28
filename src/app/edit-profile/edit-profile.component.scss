@@ -1,0 +1,145 @@
+.setting {
+font-size: 40px;
+padding-left: 45px;
+}
+.p-text {
+font-weight: normal;
+font-size: 22px;
+list-style: none;
+padding-left: 20px;
+}
+.success {
+border-color: #868789;
+color: #fff;
+font-size: 18px;
+}
+.success:hover {
+background-color: green;
+}
+.img-responsive {
+width: 55px;
+border-radius: 50px;
+}
+.name {
+font-size: 15px;
+font-weight: 100;
+}
+.line {
+border-bottom: 2px solid #868789;
+}
+.account {
+padding-bottom: 160px;
+}
+// ///inputfield///// 
+input[type="text"],
+select.form-control {
+background: transparent;
+border: none;
+border-bottom: 1px solid #868789;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-radius: 0;
+font-size: 20px;
+color: #fff;
+}
+// /////iconbuttonnn/////
+.btnn {
+background-color: #4267B2;
+border: none;
+}
+.btnn1 {
+background-color: #00A2F3;
+border: none;
+
+}
+.btnn2 {
+background-color: #aa3d67;
+border: none;
+}
+.btnn3 {
+background-color: #0077B7;
+border: none;
+}
+.btnn4 {
+background-color:transparent;
+border:1px solid #fff;
+}
+.dark {
+border-color: #868789;
+}
+// // footer/////////
+.container.cc-container 
+{
+background-color: black;
+max-width: 100% !important;
+}
+.fix
+{
+position: fixed;
+// left: 50px;
+z-index: 1;
+}
+.fix-tile
+{
+position: fixed;
+top: 0;
+right: 200px;
+// background-color: black;
+z-index: 1;
+}
+.fix1
+{
+position: relative;
+left: 300px;
+}
+.account {
+    padding-top: 65px;
+}
+// // //////////media queryyyyyyyyyyyyy///////////////////////
+@media screen and (min-width: 300px) and (max-width: 767px) {
+.fix{
+background-color: black;
+margin-top: 7px;
+left: 0;
+}
+.fix-tile{
+right: 0 !important;
+background-color: black;
+left:0;
+top:0;
+}
+.fix1{
+left: 0px;
+top: 70px;
+
+}
+.mobile-list li{
+display: inline-block;
+}
+.success {
+position: relative;
+top: -130px;
+}
+.dark{
+cursor: pointer;
+position: relative;
+top: -21px;
+
+}
+.tilee {
+padding-right: 25px;
+}
+.account{
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+.setting {
+    font-size: 28px;
+  
+}
+.sec_p {
+    padding-top: 0px !important;
+}
+}
+

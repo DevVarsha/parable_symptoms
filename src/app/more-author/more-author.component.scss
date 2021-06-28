@@ -1,0 +1,128 @@
+
+.line {
+border-bottom: 1px solid #fff;
+}
+.list {
+font-weight: 300;
+color:#fff;
+}
+.list1 {
+font-weight: 300;
+color:#fff;
+}
+button.btn.list1 {
+background-color: #38383b;
+font-size: 20px;
+}
+img.tilee {
+position: fixed;
+z-index: 99999;
+top: 0px;
+background-color: #131313;
+right: 220px;
+}
+////dropdown//////
+.dropdown-menu {
+background-color: black;
+
+width: 260px;
+}
+.dropdown-menu ul li {
+color: #fff;
+}
+.dropdown-menu ul li:hover {
+color: #fff;
+background-color: #131313 ;
+}
+.dropdown-menu.show {
+background-color: black;
+width: 256px;
+}
+li.text-white {
+display: inline-block; 
+}
+ul.texx {
+left: -19px;
+position: relative;
+font-size: 20px;
+}
+
+//search//////
+* {
+box-sizing: border-box;
+}
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid #38383b;
+float: left;
+width: 80%;
+background: #38383b;
+height: 38px;
+}
+::placeholder {
+color: #fff;
+opacity: 1; 
+}
+//////cardddd/////
+.card.mb-4 {
+background-color: black;
+border: 1px solid #fff;
+}
+img.card-img-top {
+padding: 15px;
+}
+img.micon {
+width: 15.6%;
+padding-bottom: 5px;
+}
+// footer/////////
+.container.cc-container 
+{
+background-color: black;
+max-width: 100% !important;
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-image:url("./../../assets/image/Rectangle 301@2x.png");
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.card:hover .overlay {
+opacity: 1;
+}
+// //////////media queryyyyyyyyyyyyy///////////////////////
+@media screen and (min-width: 300px) and (max-width: 767px) {
+img.tilee {
+top: 1px;
+right: 20px;
+}
+form.example input[type=text] {
+padding: 8px;
+font-size: 22px;
+border: 1px solid #38383b;
+width: 100%;
+background: #38383b;
+height: 53px;
+}
+.country {
+padding: 15px 0px;
+}
+button.btn.list1{
+font-size: 24px;
+height: 53px;
+}
+img.city {
+padding: 10px 0px;
+}
+}
+
+
